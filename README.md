@@ -1,20 +1,20 @@
 <div align="center">
-<img width="50%" src="http://i3.ytimg.com/vi/tYKRAXIio28/maxresdefault.jpg"/>
 
-# Django & React Notes App
+
+# Diary Application
 </div>
 
 ### Cloning the repository
 
 --> Clone the repository using the command below :
 ```bash
-git clone https://github.com/divanov11/Django-React-NotesApp.git
+git clone https://github.com/Ahmedmini2/Diary
 
 ```
 
 --> Move into the directory where we have the project files : 
 ```bash
-cd Django-React-NotesApp
+cd Diary
 
 ```
 
@@ -38,6 +38,11 @@ source env/bin/activate
 
 ### Running the App
 
+### Don't Forget to install requirements 
+
+pip install -r requirements.txt
+
+
 --> To run the Notes App, we use :
 ```bash
 python manage.py runserver
@@ -47,10 +52,5 @@ python manage.py runserver
 
 #
 
-### App Preview :
-
-<div align="center">
-<img width="50%" src="https://www.linkpicture.com/q/Notes.png"/>
-</div>
 
 #
