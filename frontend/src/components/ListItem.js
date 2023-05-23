@@ -1,8 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-let getTime = (note) => {
+let getUpdate = (note) => {
     return new Date(note.updated).toLocaleDateString()
+}
+
+let getTime = (note) => {
+    return new Date(note.created).toLocaleDateString()
 }
 
 let getTitle = (note) => {
@@ -33,7 +37,7 @@ const ListItem = ({ note }) => {
         <Link to={`/note/${note.id}`}>
             <div className="notes-list-item" >
                 <h3>{getTitle(note)}</h3>
-                <p><span>{getTime(note)}</span>{getContent(note)}</p>
+                <p><span>Created at: {getTime(note)} Last Update at: {getUpdate(note)} </span>{getContent(note)}</p>
             </div>
 
         </Link>

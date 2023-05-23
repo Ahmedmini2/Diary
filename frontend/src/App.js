@@ -8,15 +8,17 @@ import './App.css';
 import Header from './components/Header'
 import NotesListPage from './pages/NotesListPage'
 import NotePage from './pages/NotePage'
+import LoginForm from './components/loginform'
 
 function App() {
   return (
-    <Router>
+     <Router>
       <div className="container dark">
         <div className="app">
           <Header />
           <Route path="/" exact component={NotesListPage} />
           <Route path="/note/:id" component={NotePage} />
+          <Route path="/login" component={LoginForm} />
         </div>
       </div>
     </Router>

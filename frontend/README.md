@@ -1,8 +1,6 @@
 # Getting Started with Diary
 
 
-## Available Scripts
-
 ## install React Script
 
 ### `npm install react-scripts --save`

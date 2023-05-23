@@ -43,6 +43,7 @@ body{
   line-height: 1.8em;
   font-weight: 400;
   font-size: 16px;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -162,7 +163,8 @@ a {
 .notes-list-item p span {
   color: var(--color-gray);
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 6px;
+  font-size: 9px;
 }
 
 .notes-list-item p {
